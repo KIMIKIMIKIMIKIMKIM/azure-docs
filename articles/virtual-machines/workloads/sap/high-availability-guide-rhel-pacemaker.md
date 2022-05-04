@@ -233,7 +233,7 @@ The STONITH device uses a Service Principal to authorize against Microsoft Azure
 2. Select Application Type "Web", enter a sign-on URL (for example http:\//localhost) and click Add  
    The sign-on URL is not used and can be any valid URL
 1. Select Certificates and Secrets, then click New client secret
-1. Enter a description for a new key, select "Never expires" and click Add
+1. Enter a description for a new key,** select an expiration for the secret and click Add**
 1. Make a node the Value. It is used as the **password** for the Service Principal
 1. Select Overview. Make a note the Application ID. It is used as the username (**login ID** in the steps below) of the Service Principal
 
